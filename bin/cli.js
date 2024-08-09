@@ -74,7 +74,7 @@ require('yargs')
         },
         number: {
             alias: 'n',
-            default: 20,
+            default: 1,
             type: 'number',
             describe: 'Number of products to scrape. Maximum 100 products or 300 reviews',
         },
